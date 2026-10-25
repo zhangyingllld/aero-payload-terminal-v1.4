@@ -1,0 +1,6 @@
+board_alias,physical_label,assigned_student,role,app_device_id,hdc_target_id,lan_ipv4,ohos_fullname,api_version,projection_local_port,validation_status,notes
+B1,existing-physical-A,A,controller,TERM-01,,,,,27183,pending_group_acceptance,现有实物A对应B1；现场填写完整USB编号和当天IPv4及系统版本；五实板同时联调待验
+B2,to-be-added,B,observer,VIEW-01,,,,,27184,pending_hardware,由学员B负责；到场后独立登记；只读监看可报告本机准备但不控制载荷
+B3,existing-physical-B,C,camera,CAM-01,,,,,27185,pending_group_acceptance,现有实物B对应B3且由学员C负责；不是学员B的B2；现场登记后验收
+B4,to-be-added,D,environment,ENV-01,,,,,27186,pending_hardware,由学员D负责；到场后填写完整USB编号和当天IPv4及系统版本；五实板同时联调待验
+B5,to-be-added,E,light,LIGHT-01,,,,,27187,pending_hardware,由学员E负责；到场后填写完整USB编号和当天IPv4及系统版本；五实板同时联调待验

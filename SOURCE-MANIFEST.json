@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "edition": "application-source-and-prebuilt-hap",
+  "version": "1.4",
+  "createdAt": "2026-10-25T00:56:43.635088+00:00",
+  "originArchive": "航空载荷终端_分布式与AI完整源码部署包_v1.4_详细演示版.zip",
+  "originArchiveSha256": "95b362bbe6563ffd5f4b93ddcafddf915dba85f2633d5b821ee9adbc63b8437b",
+  "applicationSourceSha256": "742062fd7a95de66f0714e67bbb47b30509addde57c4d9110e3bccbd881641dc",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "38c5314730055efc01cfb4c5f9a8b3040dd914139f207878393825d7cdca0d97",
+      "bytes": 399
+    },
+    {
+      "path": "README.md",
+      "bytes": 2249,
+      "sha256": "1205a525dbdb4365724cbf5bda1e285888ae072c89255a82438d9770cf1de197"
+    },
+    {
+      "path": "START-HERE.md",
+      "bytes": 695,
+      "sha256": "1c62d43165139a68d74fe0e0df5f5a6c510355a7cb8ea065d8c84c35eaa728d7"
+    },
+    {
+      "path": "ai-gateway/README.md",
+      "sha256": "91c88ee8972c4cb0516dbdc4ed90dddc3a5be73cd896c654ed9d1a194a5664c7",
+      "bytes": 8258
+    },
+    {
+      "path": "ai-gateway/gateway.py",
+      "sha256": "9cbcfc50db29355dc5e31caa0ae8f6216b90a89dad41c2342e90e575a4a034f9",
+      "bytes": 15381
+    },
+    {
+      "path": "ai-gateway/test_gateway.py",
+      "sha256": "d62d7e5aa4ab3c4f7c8d56883208c5fd7026221200b2ac0de26dfcbcb91961da",
+      "bytes": 12082
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1006,
+      "sha256": "e994b8c6645c3520a7a9eaa3a33ace4a69954086753e7740034264aa59338987"
+    },
+    {
+      "path": "docs/航空载荷终端开发部署操作手册.docx",
+      "bytes": 59738,
+      "sha256": "da36346ef22dfd5fdc5e20424296776f9629d960cea406ed4fd570cb59ffcdc2"
+    },
+    {
+      "path": "docs/航空载荷终端软件使用手册.docx",
+      "bytes": 47767,
+      "sha256": "b3fb6d039acab980fc0949152793d007534361f9b3a9d84a88aa9cc8420d427c"
+    },
+    {
+      "path": "payload-app/AppScope/app.json5",
+      "sha256": "775380c35926bcac2927e3620e590c96517a467fbdf51047f3335c9541d8def8",
+      "bytes": 218
+    },
+    {
+      "path": "payload-app/AppScope/resources/base/element/string.json",
+      "sha256": "1fa8cfa12a9e2c591e15caf3370f5d3eff05cfb45b8356b85034b86c499dc384",
+      "bytes": 104
+    },
+    {
+      "path": "payload-app/AppScope/resources/base/media/app_icon.png",
+      "sha256": "04b23f591626748ca9478fd48859683654238ce8cb4993bccabba5811e1af045",
+      "bytes": 25349
+    },
+    {
+      "path": "payload-app/README.md",
+      "bytes": 1127,
+      "sha256": "ed55391411673bcb860cff9fc85becfacacfc6c888e46b0caaaf692c36604fc4"
+    },
+    {
+      "path": "payload-app/build-profile.json5",
+      "sha256": "1922a9f5a90003bef8b718c4766116e3277035394787bd8cb1c12d15bb48a61e",
+      "bytes": 500
+    },
+    {
+      "path": "payload-app/build.py",
+      "sha256": "8a89761eeac04bd92be75144e86f5354fe2c54e88ec63b153a4b1cb77ef5ba75",
+      "bytes": 324
+    },
+    {
+      "path": "payload-app/build.sh",
+      "sha256": "618f9ff4a8b460802e389d81f268d9e7fa28251af1df427a80d46804fe71c639",
+      "bytes": 136
+    },
+    {
+      "path": "payload-app/design/app_icon.svg",
+      "sha256": "ec8d2c4c3602d3e55c3c7158a2aa97292704e7086fde7be10effd87f07b28efd",
+      "bytes": 583
+    },
+    {
+      "path": "payload-app/dist/build-info.json",
+      "sha256": "c96e87ea4c6425dd4d48369e57f7ab9c404b5cfec03c3265f415193e96df3aff",
+      "bytes": 411
+    },
+    {
+      "path": "payload-app/dist/payload-terminal-signed.hap",
+      "sha256": "0363dd0f5f74f24fe900ac209393df15a21f5519e1c6a87ed99b9fddba03f9e6",
+      "bytes": 914529
+    },
+    {
+      "path": "payload-app/entry/build-profile.json5",
+      "sha256": "ac634bb741b80be16f82ae73a89e9cf89ae78911c24d04bcf4c51f535d7746be",
+      "bytes": 115
+    },
+    {
+      "path": "payload-app/entry/hvigorfile.ts",
+      "sha256": "96b0c1c4c9492360b6d72fd457625aafe460c9a616f74a159c3f5da524d1d3ba",
+      "bytes": 108
+    },
+    {
+      "path": "payload-app/entry/oh-package.json5",
+      "sha256": "796b368fb4cc183b2b06ee5b9cc1f7aa1b18937706e355aa36d896b57d41f531",
+      "bytes": 71
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/components/AiAssistantPanel.ets",
+      "sha256": "29aa4844b7f5d5dbfc5504e254cb02def973dd685382b33649fcda7a02c178f2",
+      "bytes": 7855
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/components/DistributedPanel.ets",
+      "sha256": "7f45a706284807f33185f33a9a7228ca64c041af235a9d88280166d793c6e0b8",
+      "bytes": 13173
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/aiSummary.ts",
+      "sha256": "e711c3fca1873953bbd68d76de49838487070d9f0e20d42d83107ece020a58d2",
+      "bytes": 6245
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/capabilities.ts",
+      "sha256": "3cded00b1e65cb6b5c2ce48d8cb727072422c5275a78f090e874a991838df24c",
+      "bytes": 7125
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/distributedTask.ts",
+      "sha256": "aac7ca123355f4912ce537f4b9430a06caeef1c632667966f27ccc34a7fb9618",
+      "bytes": 8224
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/engine.ts",
+      "sha256": "64e64b38bd9032d46fc432396714a2efdbea614f7c76c31fbd11c6e67ffbd8df",
+      "bytes": 37737
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/models.ts",
+      "sha256": "d5d8d72cd0e19aaccd1f2e6966b9859ea64d825f5a7cdfb0a0dbbe6a2a558b82",
+      "bytes": 3308
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/core/protocol.ts",
+      "sha256": "ddb72a0487bf58f94457e3be79df831e64236484135b6b52bb2e342b8692f9b7",
+      "bytes": 6091
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/entryability/EntryAbility.ets",
+      "sha256": "bbd3c67e2125039250b8bccd9f3ace5c60ea1aefdb719485e1501869d98581dd",
+      "bytes": 1310
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/pages/Index.ets",
+      "sha256": "542d44d90e29abda44252cf103ebab1f87db7f8b5d0b62bd83a3b41eb7e96bb4",
+      "bytes": 47634
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/platform/AiClient.ets",
+      "sha256": "7a870d3b260fbd0d5e1bc56bbb85fb22a4982927c2a90905c70e685a9aec81b5",
+      "bytes": 2880
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/platform/AiSettings.ets",
+      "sha256": "dd97141e10cccf6daf28fa58cb8cd69c3efd2685e43501aa5a781be5af2e6d80",
+      "bytes": 985
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/platform/AppRuntime.ets",
+      "sha256": "13e9b41014c55ec91868633d2393ca7806fe25558894aba527bf4b7b1cd70aad",
+      "bytes": 14759
+    },
+    {
+      "path": "payload-app/entry/src/main/ets/platform/DistributedService.ets",
+      "sha256": "627c3d20716ca58b8df01222c38397d705fc6601213a429b081bdd620a3d3415",
+      "bytes": 26028
+    },
+    {
+      "path": "payload-app/entry/src/main/module.json5",
+      "sha256": "9128a22ca422b28cfcf600ebc4207b838824d5a521b9dde4855b30675803a71a",
+      "bytes": 1304
+    },
+    {
+      "path": "payload-app/entry/src/main/resources/base/element/color.json",
+      "sha256": "84112d6e7b06a890e8012f3afe35fa3efb406024ffd6d488d1db9fd69f5ef575",
+      "bytes": 100
+    },
+    {
+      "path": "payload-app/entry/src/main/resources/base/element/string.json",
+      "sha256": "0accd744053bc85be8d0e8b23b00d226bd01d58bb838cb7c960e6b52a9e0efe2",
+      "bytes": 368
+    },
+    {
+      "path": "payload-app/entry/src/main/resources/base/media/simulated_scene.svg",
+      "sha256": "fd4e2cbb43a83a9cdd3c9d997f9195208ebe108a535c1b7d7079a6ebb76f92d1",
+      "bytes": 1141
+    },
+    {
+      "path": "payload-app/entry/src/main/resources/base/profile/main_pages.json",
+      "sha256": "b7248e3d58d4006a4bb01d9991e34b1292c03f3d212b5945470ec5bdcf9f1cbd",
+      "bytes": 42
+    },
+    {
+      "path": "payload-app/hdc.sh",
+      "sha256": "9e91016265e1d23f4f3a15b43287cbe2ff51cf10224abd12635b74310678780b",
+      "bytes": 170
+    },
+    {
+      "path": "payload-app/hvigor/hvigor-config.json5",
+      "sha256": "d1f2c842451de2f65b3964a13a5dec520260c7f290d421577b0155b5c904e90b",
+      "bytes": 112
+    },
+    {
+      "path": "payload-app/hvigorfile.ts",
+      "sha256": "561d3af07f6c82dbb7bb20bc1b6f719d0d83d0ca6b0131657b8fab55e255b7b4",
+      "bytes": 108
+    },
+    {
+      "path": "payload-app/install.sh",
+      "sha256": "27e26ef7de55824043b5b6dfe216ea4d67c4b297acf94439e4f34c743bca0872",
+      "bytes": 320
+    },
+    {
+      "path": "payload-app/oh-package.json5",
+      "sha256": "47a7c503d957a0fa4722df44893283691653372d2a090a0f785d0a22bc0f90ce",
+      "bytes": 110
+    },
+    {
+      "path": "profiles/board-inventory.csv",
+      "sha256": "fda4018cb6957a008354d3e2f2f24ec566c83dfe128a7012cdc9ac61cd17e8ba",
+      "bytes": 1001
+    },
+    {
+      "path": "tests/core/ai-summary.test.mjs",
+      "sha256": "6ad9b2a2da939c5acbce70b57307c689cf894605e4e354bcb2f13bd5a5143b39",
+      "bytes": 3880
+    },
+    {
+      "path": "tests/core/distributed-task.test.mjs",
+      "sha256": "60301a8ae75dc6f6bbc11c52c58d99d668bb5a9609f120edd51287c2d0b6154a",
+      "bytes": 6888
+    },
+    {
+      "path": "tests/core/engine.test.mjs",
+      "sha256": "227a9779689bf81a8694e42c51bedbb88b3494837f883e851247b6925402f105",
+      "bytes": 11895
+    },
+    {
+      "path": "tests/core/guards.test.mjs",
+      "sha256": "bb61cd1e244e42d1d2e31657578bd3546fe578edf82255fed1b26e0d4cb7c125",
+      "bytes": 5947
+    },
+    {
+      "path": "tests/core/network.mjs",
+      "sha256": "908cf9c9234e51866cd1aac52a5945df58bf77577e788f57e012b9979114ff0b",
+      "bytes": 3519
+    },
+    {
+      "path": "tests/core/protocol.test.mjs",
+      "sha256": "4ab43d1fb6489f2774e44ca72b76a74fbcec2a905e168b31cbc925e9fbf86f87",
+      "bytes": 3725
+    },
+    {
+      "path": "tests/distributed/distributed-native-doubles.mjs",
+      "sha256": "c78097670750572973f9d4df4970d91cabbb88cb7e9c3fbc34a00d14a70eb1e3",
+      "bytes": 2287
+    },
+    {
+      "path": "tests/distributed/distributed-service.test.mjs",
+      "sha256": "33edc606eca82d7f1023583890db2643588ac37cdeca7748bc9ac4323b41ca7c",
+      "bytes": 11517
+    },
+    {
+      "path": "tests/distributed/register-distributed.mjs",
+      "sha256": "4df3acc2d951143d61ffe590781b831570eae333509e1824fa5b42534cd561da",
+      "bytes": 1367
+    },
+    {
+      "path": "tests/platform/ai-client-register.mjs",
+      "sha256": "8264ba31b94026911eee74a92263cf4a10f2db4eb13b1d46b1a137066b843f97",
+      "bytes": 1026
+    },
+    {
+      "path": "tests/platform/ai-client.test.mjs",
+      "sha256": "7049e1b90400cfc658b28870d0f819b7aa5ed617c103fbb59d9f147fa93f32bf",
+      "bytes": 2177
+    },
+    {
+      "path": "tests/platform/ai-http-mock.mjs",
+      "sha256": "5c3a02813a97b63f76b73da9cd28a19d28e09199eb9e445537b39471f453b20b",
+      "bytes": 561
+    },
+    {
+      "path": "tests/platform/ohos-mocks.mjs",
+      "sha256": "05f216546efb78f021b7856ace45f5412697a286107440aea13852941faa0c44",
+      "bytes": 3207
+    },
+    {
+      "path": "tests/platform/register.mjs",
+      "sha256": "b5ab745e849137cb72fc4d724dfff3e9fb1e1ab67e85654ed18f34e7e8374550",
+      "bytes": 1322
+    },
+    {
+      "path": "tests/platform/runtime.test.mjs",
+      "sha256": "bac8ca3e85e35b05148777f3232d484742c0ed3ec0509bb7b7ce3496c3fe9f70",
+      "bytes": 6031
+    },
+    {
+      "path": "tests/register.mjs",
+      "sha256": "1e03b670d231ada25795228951256fd061a45cb446c6258b99436f0b4faffc0b",
+      "bytes": 467
+    },
+    {
+      "path": "tests/tooling/test_board_preflight.py",
+      "sha256": "e851158c774650c5af7527d87cf2c1c3277d5a60acabd6946ad2e3c0cdd41ac5",
+      "bytes": 6284
+    },
+    {
+      "path": "tests/tooling/test_build_tools.py",
+      "sha256": "52c08531cd86d093106417b06b072cc6591c7b6fd9de19682173aa56ea691831",
+      "bytes": 4599
+    },
+    {
+      "path": "tests/tooling/test_demo_ui.py",
+      "sha256": "2862b02cf6f26a6258b84a89e98114568783a83c6afb221545e2e44dde2a46a6",
+      "bytes": 1959
+    },
+    {
+      "path": "tests/tooling/test_deploy.py",
+      "sha256": "561919312b1d132c31d87030b8ba5e543985da19d3f501440a00ee419f134bba",
+      "bytes": 2544
+    },
+    {
+      "path": "tests/tooling/test_windows_build.py",
+      "sha256": "4123cd0c2851a5aa22b8d5e6975d398285b96fd1d40ad24a6eaf6862c97fd722",
+      "bytes": 12026
+    },
+    {
+      "path": "tools/Find-Hdc.ps1",
+      "sha256": "cedb9e4f7947bfc8f24b3048b0c196c790170539bcec0a2ce10a18e1c1b671b8",
+      "bytes": 730
+    },
+    {
+      "path": "tools/Install-Payload.ps1",
+      "sha256": "05113df0f7025b20f33821345d03bb715aadec06f41b419bb17ac33d571616f5",
+      "bytes": 815
+    },
+    {
+      "path": "tools/board_preflight.py",
+      "sha256": "c846ee7cc2fcb8d34255bd930f7ccc345a015a99770e7ebd5e93928cd865f4c1",
+      "bytes": 5438
+    },
+    {
+      "path": "tools/check_demo_ui.py",
+      "sha256": "8662684895b452794011e62b071f97f376a0996771e1987acd4f885416144b9a",
+      "bytes": 6795
+    },
+    {
+      "path": "tools/check_ui_regression.py",
+      "sha256": "e3ea8e053816403f24150ce63c6b3be5a378bae265f8a0099eadde7937718e3e",
+      "bytes": 2113
+    },
+    {
+      "path": "tools/deploy.py",
+      "sha256": "90feb4abe67cfab6ce8361494cec542f3d2bb9fc93bd80585bb1e8bd5c3c4600",
+      "bytes": 4496
+    },
+    {
+      "path": "tools/generate_app_icon.cjs",
+      "sha256": "88c7e598807537ebff43da969eb0b7be9fb3422a19cb8b817ada6dbd437190b4",
+      "bytes": 715
+    },
+    {
+      "path": "tools/openharmony-public-release.cer",
+      "sha256": "4b0e533b761106826b97886d36812459a0ce29c23ca7805581d4f634ed7bd94d",
+      "bytes": 2597
+    },
+    {
+      "path": "tools/payload_build.py",
+      "sha256": "e645f100c3b3034a4c73c702c83883f92db897b1b0c94de5acde9fbee6339c1e",
+      "bytes": 13809
+    },
+    {
+      "path": "tools/verify_source.py",
+      "sha256": "fc30b66966058a3da52e7e74751f80e382f02e47eab22491879b17356b4de933",
+      "bytes": 1305
+    },
+    {
+      "path": "tools/windows_build.py",
+      "sha256": "12e123eb02dfbb872a3ac615e2774dae54dda6779716641cc13028e96a403248",
+      "bytes": 16444
+    }
+  ],
+  "hapSha256": "0363dd0f5f74f24fe900ac209393df15a21f5519e1c6a87ed99b9fddba03f9e6",
+  "prebuiltArtifact": "payload-app/dist/payload-terminal-signed.hap",
+  "reviewedOn": "2026-10-25",
+  "manual": "docs/航空载荷终端开发部署操作手册.docx",
+  "userManual": "docs/航空载荷终端软件使用手册.docx",
+  "documentationUpdatedOn": "2026-10-25"
+}

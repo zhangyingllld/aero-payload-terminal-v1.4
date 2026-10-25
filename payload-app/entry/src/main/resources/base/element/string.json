@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "航空多任务载荷自适应终端教学实训应用"
+    },
+    {
+      "name": "app_name",
+      "value": "航空载荷终端"
+    },
+    {
+      "value": "发现并认证本组开发板，共享试验任务和成员准备状态",
+      "name": "distributed_permission"
+    }
+  ]
+}

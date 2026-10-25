@@ -1,0 +1,27 @@
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/.cache/
+**/.hvigor/
+**/entry/build/
+**/dist/
+**/logs/
+**/signature/
+**/local.properties
+**/.build.lock
+evidence/
+
+# Local credentials and machine-only AI configuration
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+**/.private/
+**/ai-gateway-token.txt*
+**/*secret*.local.*
+**/*credentials*.json
+**/*.p12
+**/*.pfx
+**/*.key
+**/id_rsa*
+**/id_ed25519*

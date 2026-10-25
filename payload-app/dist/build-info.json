@@ -1,0 +1,12 @@
+{
+  "bundle": "com.eduoh.payloadterminal",
+  "ability": "EntryAbility",
+  "sdk": "API23",
+  "buildHost": "Windows",
+  "artifact": "payload-terminal-signed.hap",
+  "sha256": "0363dd0f5f74f24fe900ac209393df15a21f5519e1c6a87ed99b9fddba03f9e6",
+  "bytes": 914529,
+  "elapsedSeconds": 34.28,
+  "completedAt": "2026-10-24T05:07:23+0800",
+  "signing": "OpenHarmony public development key; classroom use"
+}
